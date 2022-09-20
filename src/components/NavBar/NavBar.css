@@ -1,0 +1,46 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: #173a58;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar .Logo {
+    max-height: 50px;
+    margin-left: 30px;
+}
+
+.NavBar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 1;
+    padding: 0 20px;
+    display: flex;
+    align-content: center;
+    transition: all .2s ease-in-out;
+}
+
+.NavBar ul li a:hover {
+    opacity: .5;
+}
+
+.NavBar .Menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

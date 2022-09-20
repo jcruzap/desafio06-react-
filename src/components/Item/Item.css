@@ -1,0 +1,52 @@
+ul.list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+}
+
+picture img {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+}
+
+.name {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+
+.price {
+    text-align: center !important;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: white;
+    color: #282c34;
+    border-radius: 6px;
+}
+
+.stock {
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.stock span {
+    font-weight: 700;
+}
+
+button.detalles {
+    width: 150px;
+    margin: 20px 0 30px;
+}
